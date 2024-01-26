@@ -1,0 +1,23 @@
+.button_list {
+  display: flex;
+  gap: 10px;
+}
+
+.button_list button {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: 1px 1px 0 0 #5540403f, 1px 1px 0 0 #55404056,
+    1px 1px 0 0 #55404008;
+}
+
+.button_list button:hover {
+  cursor: pointer;
+  background-color: #114de332;
+}
+
+.button_list button:active {
+  background-color: #114de3bf;
+}

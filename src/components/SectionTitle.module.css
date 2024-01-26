@@ -1,0 +1,14 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  width: fit-content;
+}
+.section:first-child {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 40px;
+}
